@@ -1,0 +1,31 @@
+# Claude Skills Public Repo - .gitignore
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# API keys or secrets (should never be in public repo)
+*.env
+.env*
+*secrets*
+*credentials*
+*.key
+*.pem
+
+# Any skills you want to exclude from public
+# Add skill folder names below:
+# example_private_skill/
+
