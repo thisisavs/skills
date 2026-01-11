@@ -8,6 +8,23 @@ allowed-tools: Read, WebFetch
 
 Generate professional-quality videos using Google's Veo 3.1 model with complete audio capabilities.
 
+## CRITICAL: Duration Limits
+
+**Each generation has a hard limit on duration:**
+
+| Model | Duration Options | Default |
+|-------|------------------|---------|
+| **Veo 3 models** | 4, 6, or 8 seconds | 8 sec |
+| **Veo 2 models** | 5-8 seconds | 8 sec |
+
+**For longer videos:**
+- Generate multiple 8-second clips with same style ingredients
+- Use **Scenebuilder** in Flow to arrange clips into sequence
+- Use **Extend** feature to continue from a clip's last frame
+- Stitch clips in external editor (DaVinci Resolve, Premiere, etc.)
+
+**Example: 2-minute video = 15 clips × 8 seconds**
+
 ## The 5-Part Prompt Formula
 
 Structure your prompts using this formula for optimal control:
